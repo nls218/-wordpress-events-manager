@@ -1,0 +1,47 @@
+.events-list-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.event-item {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #f9f9f9;
+}
+
+.event-title {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.event-date {
+    font-weight: bold;
+    color: #0073aa;
+    margin-bottom: 5px;
+}
+
+.event-place {
+    color: #666;
+}
+
+.load-more-events {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #0073aa;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.load-more-events:hover {
+    background: #005a87;
+}
+
+.load-more-events:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
